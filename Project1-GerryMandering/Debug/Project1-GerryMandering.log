@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\mohom\Documents\CS251\Project1-GerryMandering\main.cpp(207,103): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\mohom\Documents\CS251\Project1-GerryMandering\main.cpp(211,102): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Project1-GerryMandering.vcxproj -> C:\Users\mohom\Documents\CS251\Project1-GerryMandering\Debug\Project1-GerryMandering.exe

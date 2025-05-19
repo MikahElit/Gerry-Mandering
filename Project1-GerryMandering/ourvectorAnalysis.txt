@@ -1,0 +1,17 @@
+*********************************************************
+ourvector<T> stats:
+ # of vectors created:   58
+ # of elements inserted: 582
+ # of elements accessed: 514
+*********************************************************
+
+In general, when creating vectors, the number of vectors, elements inserted, and elements accessed can be impacted by several
+factors such as the data structure used, the algorithm implemented, and the input size. To justify the creation of 58 number of vectors,
+we must understand that we are creating a vector of stucts that stores State Name,number of eligible voter plus a vector of structs that contain the
+number of red and blue votes for each district in a state.So we have two vectors that are nested and 4 different data variables.We use the readFile function 
+to expand and store the data as necessary.We sue the stat function to access elements within the vectors to calculate gerrymandering.We use the readOut function to
+the load we just saved in the vectors.We use the search function to check if data regarding a state is present.We use the plot function to show a histogram
+of Red and blue votes in each district of a specific state.Plot and stat require us to acces both nested vectors while search and readOut require us to access
+only one vector.
+Vector is initiallized on line 226.This initializes both vectors since they are nested.On line 88 in readFile function we add data and therefore expand
+vectors as the text file requires.
